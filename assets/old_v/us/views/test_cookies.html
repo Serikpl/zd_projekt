@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test cookies</title>
+</head>
+<body>
+	
+	<script>
+  (function(){
+  	document.cookie="keyofcookie=valueofcookie";
+  })()
+
+  window.onbeforeunload = confirmExit;
+  function confirmExit()
+  {
+  	document.cookie="keyofcookie=valueofcookie";
+    return "If closed tab session will be deleted!";
+  }
+	</script>
+
+</body>
+</html>
