@@ -15,7 +15,10 @@
 	       {     
 	        try
 	        {
-	          self::$cont =  new PDO('mysql:host=localhost;dbname=shop_db;encoding=utf8_general_ci', 'root','');
+	          self::$cont =  new PDO('mysql:host=localhost;
+	          	dbname=shop_wheels;
+	          	encoding=utf8_general_ci', 
+	          	'root','');
 	        }
 	        catch(PDOException $e)
 	        {
