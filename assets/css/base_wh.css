@@ -1,0 +1,64 @@
+.contact_form input[type='text'], 
+.contact_form textarea
+{
+	padding: 10px 15px;
+	border: 2px solid #000;
+	width: 100%;
+	max-width: 30vw;
+	min-width: 300px;
+}
+.contact_form input[type='submit']
+{
+	width: 200px;
+	background-color: #000;
+	color: #fff;
+	border: 0;
+	height: 50px;
+	font-size: 20px;
+}
+.contact_inf h3
+{
+	margin-top: 50px;
+}
+.contact_address, .contact_email
+{
+	margin-bottom: 15px;
+}
+.map iframe
+{
+	width: 40vw;
+	max-width: 800px;
+	height: 300px;
+}
+.exrate{
+	/*border: 1px solid #ccc; */
+	margin-right: 30px;
+}
+.exrate table td,
+.exrate table th
+{
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+.ex_rat_cont
+{
+	display: flex;
+	/*justify-content: space-around;*/
+}
+.other_curr h3{
+	margin-top: 0px;
+}
+.other_curr select{
+	width: 72px;
+    height: 25px;
+    vertical-align: top;
+}
+.other_curr input[type='submit']
+{
+	width: 100px;
+	background-color: #000;
+	color: #fff;
+	border: 0;
+	height: 25px;
+	font-size: 17px;
+}

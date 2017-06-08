@@ -7,7 +7,7 @@
                     <div class="home-products padding-vertical-60">
                         <div class="row">
                             <div class="col-md-12 col-sm-6">
-  								            <h1 class="text-center">Products</h1>
+                                <h1 class="text-center">Products</h1>
 
                                 <div class="row brands">
                                     <ul class="brands-list">

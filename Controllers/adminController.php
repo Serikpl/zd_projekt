@@ -206,6 +206,8 @@ class adminController
 
 		$result_d = Product::remove_prod($id);
 
+		Cart::delProd($id);
+
 		header('Location: /ad');
 
 	}

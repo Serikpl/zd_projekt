@@ -6,7 +6,7 @@
 </head>
  
 <body>
-	<a class="btn" href="../">Powrot</a>
+	<a class="btn" href="index.php">Powrot</a>
     <div class="container">
 		
 		<div class="row">

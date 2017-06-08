@@ -18,6 +18,9 @@
 
     <link href="/assets/css/from_template/styles.css" rel="stylesheet">
 
+    <link href="/assets/css/base_wh.css" rel="stylesheet">
+
+    <!-- scripts -->
     <script src="/assets/js/from_template/vendor.js"></script>
 
     <script>
@@ -123,20 +126,20 @@
 
                             </li>
 
-                            <li class="awemenu-item">
+<!--                             <li class="awemenu-item">
                                 <a href="#" title="">
                                     <span>About us</span>
                                 </a>
 
+                            </li> -->
+
+                            <li class="awemenu-item">
+                                <a href="/ex_rate" title="">Exchange Rates</a>
+
                             </li>
 
                             <li class="awemenu-item">
-                                <a href="#" title="">Exchange Rates</a>
-
-                            </li>
-
-                            <li class="awemenu-item">
-                                <a href="#">Contact</a>
+                                <a href="/contact">Contact</a>
 
                             </li>
 

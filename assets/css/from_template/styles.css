@@ -78,12 +78,14 @@
 
 ::-moz-selection {
     color: #fff;
-    background: #ffa200
+    background: #ffa200;
+    /*background-color: #000*/
 }
 
 ::selection {
     color: #fff;
-    background: #ffa200
+    background: #ffa200;
+    /*background-color: #000*/
 }
 
 body,
@@ -4218,7 +4220,12 @@ h2.entry-title {
     background: #F7F7F7;
     overflow: hidden;
     position: relative;
-    z-index: 40
+    z-index: 40;
+}
+
+.products .product-media{
+    height: 360px;
+    background: transparent;
 }
 
 .product-hover,
@@ -6871,6 +6878,9 @@ h2.entry-title {
     margin-right: 15px;
     line-height: 80px
 }
+.awe-logo img{
+    width: 150px;
+}
 
 .awe-hidden-text {
     display: none
@@ -6885,8 +6895,8 @@ h2.entry-title {
 }
 
 .cart-number {
-    color: #fff;
-    font-size: 10px;
+    /*color: #fff;*/
+    font-size: 12px;
     font-weight: 700;
     text-align: center;
     background: url(..assets/img/bg-cart-number.png) center center no-repeat;
@@ -8166,4 +8176,54 @@ h2.entry-title {
 
 .docs-carousel-3 .owl-dots {
     margin-top: 50px
+}
+
+.single-view .product-media{
+    height: auto;
+    background: transparent;
+}
+.single-view .product-name{
+    font-size:30px;
+    margin: 20px 0;
+}
+.single-view h4{
+    margin: 15px 0 0 0;
+}
+.but-black{
+    /*width: 130px;*/
+    border: 2px solid #333;
+    padding: 5px 10px;
+    font-size: 20px;
+    margin: 20px 0;
+    display: inline-block;
+    background: #fff;
+}
+.but-black:hover{
+    background: #333;
+    color: #fff;
+}
+.products .product{
+    height: 469px;
+}
+.home-products h1{
+    margin: 10px 0 25px 0;
+}
+.brands-list{
+    padding-left: 0;
+    display: flex;
+}
+ .brands-list li{
+    margin-right: 20px;
+} 
+.brands .active-brand{
+    background: #333;
+}
+.brands .but-black{
+    padding: 0;
+}
+.brands .but-black a{
+    padding: 5px 20px;
+}
+.active-brand a{
+    color: #fff;
 }
