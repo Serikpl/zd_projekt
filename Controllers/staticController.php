@@ -40,12 +40,15 @@ class staticController
 
 			$data = json_decode($json, true);
 
-
-
 		}
 
 
 		require_once(ROOT.'/Views/Static/ex_rate.php');	
+	}
+
+	static public function actionPayment()
+	{
+		require_once(ROOT.'/Views/Static/payment_end.php');	
 	}
 
 }

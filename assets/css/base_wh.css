@@ -1,4 +1,5 @@
-.contact_form input[type='text'], 
+.contact_form input[type='text'], .contact_form input[type='email'],
+.contact_form input[type='password'],
 .contact_form textarea
 {
 	padding: 10px 15px;
@@ -14,6 +15,7 @@
 	color: #fff;
 	border: 0;
 	height: 50px;
+	margin-bottom: 30px;
 	font-size: 20px;
 }
 .contact_inf h3
@@ -61,4 +63,23 @@
 	border: 0;
 	height: 25px;
 	font-size: 17px;
+
+}
+.navbar-icons>li, .navbar-search>li{
+	position: relative;
+}
+.awe-hidden-text
+{
+    display: block;
+    font-size: 10px;
+    height: 10px;
+    line-height: 10px;
+    position: absolute;
+    top: 50px;
+    left: 0px;	
+    text-align: center;
+	width: 100%;
+}
+.page_dev{
+	margin: 100px auto;
 }

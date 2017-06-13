@@ -1,17 +1,9 @@
 <?php include ROOT.'/Views/header.php'; ?>
 
-<div class="about">
+<div class="about container">
 
-    <div class="new-product w100 prodys">
-        <div class="new-product-top">
-            <ul class="product-top-list">
-                <li><a href="index.php">Home</a>&nbsp;<span>&gt;</span></li>
-                <li><a href="#">Account</a>&nbsp;<span>&gt;</span></li>
-                <li><span class="act"><a href="login.php">Log In</a></span>&nbsp;</li>
-            </ul>
-            <p class="back"><a href="index.php">Back to Previous</a></p>
-            <div class="clearfix"></div>
-        </div>
+    <!-- <div class="new-product w100 prodys"> -->
+
         <div class="account_grid">
             <div class="col-md-6 login-right">
                 <h3>REGISTERED CUSTOMERS</h3>
@@ -32,15 +24,15 @@
                         ?>
                     </div>
 
-                    <form action="#" method="post" class="form_r">
-                        <div>
+                    <form action="#" method="post" class="form_r contact_form">
+                        <p>
                             <span>Email Address<label>*</label></span>
                             <input type="email" name="email" placeholder="email" required>
-                        </div>
-                        <div>
+                        </p>
+                        <p>
                             <span>Password<label>*</label></span>
                             <input type="password" name="password" placeholder="password" required>
-                        </div>
+                        </p>
                         
                         <input type="submit" value="Login" name="submit"> <br>
                         <a class="forgot" href="#">Forgot Your Password?</a>

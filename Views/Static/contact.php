@@ -13,14 +13,14 @@
 
                                 <div class="lcontact span_1_of_contact">
                                     <div class="contact-form">
-                                        <form method="post" id="contact-form" action="contact-post.php" class="contact_form">
+                                        <form method="post" id="contact-form" action="#" class="contact_form">
                                             <p class="comment-form-author">
                                                 <label for="author">Your Name:</label><br>
-                                                <input type="text" name="client_name" class="textbox" placeholder="Enter your name here..." >
+                                                <input type="text" name="client_name" class="textbox" placeholder="Enter your name here..." pattern="^[a-zA-z]+$" >
                                             </p>
                                             <p class="comment-form-author">
                                                 <label for="author">Email:</label><br>
-                                                <input type="text" name="email" class="textbox" placeholder="Enter your email here..." >
+                                                <input type="email" name="email" class="textbox" placeholder="Enter your email here..." >
                                             </p>
                                             <p class="comment-form-author">
                                                 <label for="author">Message:</label><br>

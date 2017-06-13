@@ -55,23 +55,37 @@
 
                         <div class="navbar-header">
                             <ul class="navbar-icons">
+                                
+                                <?php 
+                                    
+                                    $user = false;
+                                    $user = User::checkLogged();
 
-
+                                    if(!$user){
+                                    ?>
                                 <li class="menubar-account">
-                                    <a href="#" title="" class="awemenu-icon">
+                                    <a href="/login" title="" class="awemenu-icon">
                                         <i class="icon icon-user-circle"></i>
-                                        <span class="awe-hidden-text">Account</span>
+                                        <span class="awe-hidden-text">Login</span>
                                     </a>
-
+                                </li>
+                                    <?php } else { ?>                                  
+                                <li class="menubar-account">
+                                    <a href="/logout" title="" class="awemenu-icon">
+                                        <i class="icon icon-user-circle"></i>
+                                        <span class="awe-hidden-text">Log out</span>
+                                    </a>
+                                </li>
+                                    <?php } ?>
                                 </li>
 
-                                <li class="menubar-wishlist">
+<!--                                 <li class="menubar-wishlist">
                                     <a href="#" title="" class="awemenu-icon">
                                         <i class="icon icon-star"></i>
                                         <span class="awe-hidden-text">Wishlist</span>
                                     </a>
 
-                                </li>
+                                </li> -->
 
                                 <li class="menubar-cart">
                                     <a href="/cart/" title="" class="awemenu-icon menu-shopping-cart">

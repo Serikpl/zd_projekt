@@ -3,7 +3,7 @@
 function __autoload($class_name)
 {
 
-	$array_paths = ['/Components/','/Controllers/','/Entities/'];
+	$array_paths = ['/Components/','/Controllers/','/Entities/', '/Config/'];
 
 	foreach ($array_paths as $path) {
 		

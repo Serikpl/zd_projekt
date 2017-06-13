@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="../assets/css/admin.css">
-    <link rel="stylesheet" href="../assets/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/admin.css">
 </head>
 
 <body>
@@ -20,9 +21,8 @@
                 <ul class="clearfix admin_menu">                    
                     <li><a href="/ad/products" title="produkty">Produkty</a></li>
                     <li><a href="/ad/brands" title="kategori">Kategorie(brands)</a></li>
-                    <li><a href="/ad/orders" title="zamówienia">Zamówienia(orders)</a></li>
-                    <li><a href="/ad/users" title="użytkownicy">Użytkownicy</a></li>
-                    <li><a href="/ad/stat" title="statystyka">Statystyka</a></li>
+                    <!-- <li><a href="/ad/orders" title="zamówienia">Zamówienia(orders)</a></li> -->
+                    <!-- <li><a href="/ad/users" title="użytkownicy">Użytkownicy</a></li> -->
                     
                 </ul>
             </nav>

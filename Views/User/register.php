@@ -1,20 +1,13 @@
 <?php include ROOT.'/Views/header.php'; ?>
 
-		<div class="about">
-			<div class="prody">
-				<div class="new-product-top">
-					<ul class="product-top-list">
-						<li><a href="index.php">Home</a>&nbsp;<span>&gt;</span></li>
-						<li><a href="#">Account</a>&nbsp;<span>&gt;</span></li>
-						<li><span class="act"><a href="register.php">Register</a></span>&nbsp;</li>
-					</ul>
-					<p class="back"><a href="index.php">Back to Previous</a></p>
-					<div class="clearfix"></div>
-				</div>
+
+		<div class="about container">
+
+				
 				 <h3 class="new-models">For New Customers</h3>
 				 <div class="register">
 
-				  	<form action="#" method="post" class="form_r"> 
+				  	<form action="#" method="post" class="form_r contact_form"> 
 
 							<h3>REGISTRATION</h3>
 
@@ -32,19 +25,20 @@
 								?>
 							</div>
 
-							<div>
+							<p>
 								<span>Name<label>*</label></span><br>
 								<input type="text" name="name" placeholder="name" required>
-							</div>
+							</p>
 
-							<div>
+							<p>
 								<span>Email (Login)<label>*</label></span><br>
-								<input type="email" name="email" placeholder="email" required> 							</div>
+								<input type="email" name="email" placeholder="email" required> 	
+							</p>
 
-							<div>
+							<p>
 								<span>Password<label>*</label></span><br>
 								<input type="password" name="password" placeholder="password" required> 
-							</div>
+							</p>
 
 		
 						<div class="register-but">

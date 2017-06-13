@@ -45,7 +45,7 @@
                             		<h2>Total price: <?php echo $common_price; ?></h2>
                             	</div>
 
-															<button class="but-black">Buy products</button>
+									<a href='/payment'><button class="but-black">Buy products</button></a>
 													
                             </div>
                         </div>
