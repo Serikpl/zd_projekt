@@ -15,7 +15,7 @@
         <div class="nav">
             <nav>
                 <ul class="clearfix admin_menu addit_manu">
-                    <li><a href="../">Go to site</a></li>
+                    <li><a href="/">Go to site</a></li>
                     <!-- <li><a href="/logout">log out</a></li> -->
                 </ul>            
                 <ul class="clearfix admin_menu">                    

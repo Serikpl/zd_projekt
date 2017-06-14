@@ -223,6 +223,10 @@ class adminProductsController extends AdminBase
 
 		$data = Product::get_one_product($id);
 
+		// var_dump($data);
+
+		$brands = Brand::getListBrands();
+
 		if(!empty($_POST))
 		{
 
@@ -283,14 +287,15 @@ class adminProductsController extends AdminBase
 				$diameter = $data['diameter'];
 			}						
 			
+			// var_dump($productName, $brand_id, $productDescription, $quantityInStock, $buyPrice, $warehouseCode, $its_recommended ,$diameter, $id);
 
 			$pdo = Database::connect();
 
-			$sql = "UPDATE products SET productName = ?, brand_id = ?, productDescription = ?, quantityInStock = ?, buyPrice = ?, warehouseCode = ?, recommended = ?, diameter = ? WHERE productCode = ?";
+			$sql = "UPDATE products SET productName = ?, brand_id = ?, productDescription = ?, quantityInStock = ?, buyPrice = ?, warehouseCode = ?, its_recommended = ?, diameter = ? WHERE productCode = ?";
 			$query = $pdo->prepare($sql);
 
 			try{
-				$ch = $query->execute(array($productName, $brand_id, $productDescription, $quantityInStock, $buyPrice, $warehouseCode, $recommended ,$diameter, $id));
+				$ch = $query->execute(array($productName, $brand_id, $productDescription, $quantityInStock, $buyPrice, $warehouseCode, $its_recommended ,$diameter, $id));
 
 				var_dump($ch);
 		

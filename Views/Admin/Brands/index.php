@@ -26,7 +26,7 @@
                                 <td><?php echo $row['brand_name']; ?></td>
 
                                 <td class="opcje">
-                                    <a href="/ad/brands/edit_brand/<?php echo $row['id']; ?>">edytuj</a>
+                                    <!-- <a href="/ad/brands/edit_brand/<?php echo $row['id']; ?>">edytuj</a> -->
                                     <a href="/ad/brands/remove_brand/<?php echo $row['id']; ?>">usuń</a>
                                 </td>
                             </tr>
